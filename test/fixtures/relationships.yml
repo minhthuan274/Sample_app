@@ -1,0 +1,8 @@
+one:
+  follower: thuan 
+  followed: binh  
+
+two:
+  follower: binh  
+  followed: thuan
+
