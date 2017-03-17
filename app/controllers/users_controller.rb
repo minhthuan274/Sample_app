@@ -27,7 +27,6 @@ class UsersController < ApplicationController
     if @user.save
       @user.send_activation_email
       message  = "Please check your email to activate you account."
-      message += "<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>"
       flash[:info] = message
       redirect_to root_url
     else

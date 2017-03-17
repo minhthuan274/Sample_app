@@ -1,2 +1,20 @@
-gmail_username: 'doanminhthuan274@gmail.com'
-gmail_password: 'binhthuan274'
+# Add configuration values here, as shown below.
+#
+# pusher_app_id: "2954"
+# pusher_key: 7381a978f7dd7f9a1117
+# pusher_secret: abdc3b896a0ffb85d373
+# stripe_api_key: sk_test_2J0l093xOyW72XUYJHE4Dv2r
+# stripe_publishable_key: pk_test_ro9jV5SNwGb1yYlQfzG17LHK
+#
+# production:
+#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
+#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+development:
+  secret_key_base: 3021eb99c4bf53f95ed5104895b6b0e2e0313fe058d78eb67186677e6d183bc5cb6214aa41ca3bb31d3c11845f5daaae01e5bc1c793b1c52e46f939fb478c836
+  gmail_username : 'doanminhthuan274@gmail.com'
+  gmail_password : 'binhthuan274'
+test:
+  secret_key_base: 3021eb99c4bf53f95ed5104895b6b0e2e0313fe058d78eb67186677e6d183bc5cb6214aa41ca3bb31d3c11845f5daaae01e5bc1c793b1c52e46f939fb478c836
+production:
+  gmail_username : 'doanminhthuan274@gmail.com'
+  gmail_password : 'binhthuan274'
